@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-configmap
+  {{- template "generator-date.labels" . }}
+data:
+  # files variable to hold a reference to the .Files object
+  # tuple function to create a list of files to loop through
+  # Print each file name
+  # Print each contents of the file 
+  {{- $files := .Files }}
+  {{- range tuple "config1.toml" "config2.toml" "config3.toml" }}
+  {{ . }}: |-
+    {{ $files.Get . }}
+  {{- end }}
+  myvalue: {{ .Values.helloMsg }}
+  exampleValue1: {{ .Values.helloMsg | quote}}
+  exampleValue2: {{ .Values.helloMsg | upper | quote }}
+  exampleValue3: {{ .Values.helloMsg | repeat 2 | lower | quote}}
+  defaultExample1: {{ .Values.show | default "dammn good show" | quote}}
+  defaultExample2: {{ .Values.helloMsg | default (printf "%s-good one") }}
+{{ include "template.app" . | indent 2 }}
