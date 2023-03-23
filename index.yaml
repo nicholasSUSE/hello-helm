@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  HelloCharts:
+  - annotations:
+      objective: Helm chart repository for testing rancher during development
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-23T17:03:24.528072488-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 581bba8ca35322ca29060ecb6867abb1b5b6c9919ea7ab941b00c8de5750e600
+    maintainers:
+    - email: nicholas.paolillo@suse.com
+      name: Nicholas Fernandes
+    name: HelloCharts
+    type: application
+    urls:
+    - https://github.com/nicholasSUSE/hello-helm/HelloCharts-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-03-23T17:03:24.527556353-03:00"
