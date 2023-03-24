@@ -5,7 +5,22 @@ entries:
       objective: Helm chart repository for testing rancher during development
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-24T14:21:20.676517688-03:00"
+    created: "2023-03-24T14:46:47.843385643-03:00"
+    description: Helm Chart for testing semver versioning in rancher platform
+    digest: d5c58636a6b7debad1d56a0ef5acdd6888537a892375c980fdacc985c16e4f79
+    maintainers:
+    - email: nicholas.paolillo@suse.com
+      name: Nicholas Fernandes
+    name: HelloCharts
+    type: application
+    urls:
+    - https://github.com/nicholasSUSE/hello-helm/HelloCharts-0.1.2+dev.12ab4f.tgz
+    version: 0.1.2+dev.12ab4f
+  - annotations:
+      objective: Helm chart repository for testing rancher during development
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-24T14:46:47.84362237-03:00"
     description: Helm Chart for testing semver versioning in rancher platform
     digest: 80e9544730f80088b4e85f9c799659a199552f2c23df62ed52bc609dce444acd
     maintainers:
@@ -16,4 +31,4 @@ entries:
     urls:
     - https://github.com/nicholasSUSE/hello-helm/HelloCharts-0.1.2-dev.ab124f.tgz
     version: 0.1.2-dev.ab124f
-generated: "2023-03-24T14:21:20.67616069-03:00"
+generated: "2023-03-24T14:46:47.843002228-03:00"
