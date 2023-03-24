@@ -1,10 +1,10 @@
 apiVersion: v2
 name: HelloCharts
-description: Helm Chart for testing semver versioning in rancher platform
+description: Testing Semver (0.1.4+dev.123abcd)
 type: application
 
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
-version: 0.1.3-dev.12ab4f
+version: 0.1.4+dev.123abcd
 
 appVersion: "1.16.0"
 
