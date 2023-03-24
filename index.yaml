@@ -5,45 +5,15 @@ entries:
       objective: Helm chart repository for testing rancher during development
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-23T19:23:14.334053414-03:00"
+    created: "2023-03-24T14:21:20.676517688-03:00"
     description: Helm Chart for testing semver versioning in rancher platform
-    digest: 4cd5629f3f6d0ba1045e1bff886ff2195ab80b5b0fc3107be3e1d2899797ed83
+    digest: 80e9544730f80088b4e85f9c799659a199552f2c23df62ed52bc609dce444acd
     maintainers:
     - email: nicholas.paolillo@suse.com
       name: Nicholas Fernandes
     name: HelloCharts
     type: application
     urls:
-    - https://github.com/nicholasSUSE/hello-helm/HelloCharts-0.1.2.tgz
-    version: 0.1.2
-  - annotations:
-      objective: Helm chart repository for testing rancher during development
-    apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-03-23T19:23:14.333825482-03:00"
-    description: Helm Chart for testing semver versioning in rancher platform
-    digest: f430ab6b484c40c5e91f705a36d621e36ab4e4ecce64cf90652f35718d5330d8
-    maintainers:
-    - email: nicholas.paolillo@suse.com
-      name: Nicholas Fernandes
-    name: HelloCharts
-    type: application
-    urls:
-    - https://github.com/nicholasSUSE/hello-helm/HelloCharts-0.1.1.tgz
-    version: 0.1.1
-  - annotations:
-      objective: Helm chart repository for testing rancher during development
-    apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-03-23T19:23:14.333589315-03:00"
-    description: A Helm chart for Kubernetes
-    digest: 581bba8ca35322ca29060ecb6867abb1b5b6c9919ea7ab941b00c8de5750e600
-    maintainers:
-    - email: nicholas.paolillo@suse.com
-      name: Nicholas Fernandes
-    name: HelloCharts
-    type: application
-    urls:
-    - https://github.com/nicholasSUSE/hello-helm/HelloCharts-0.1.0.tgz
-    version: 0.1.0
-generated: "2023-03-23T19:23:14.3332513-03:00"
+    - https://github.com/nicholasSUSE/hello-helm/HelloCharts-0.1.2-dev.ab124f.tgz
+    version: 0.1.2-dev.ab124f
+generated: "2023-03-24T14:21:20.67616069-03:00"

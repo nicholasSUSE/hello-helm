@@ -43,10 +43,12 @@ Reference: https://www.opcito.com/blogs/creating-helm-repository-using-github-pa
 2. ```helm lint hellocharts/```
 3. ```helm package hellocharts/``` 
 4. ```helm repo index --url https://github.com/nicholasSUSE/hello-helm . ```
-5. Git
+5. you may delete the previous .tgz file 
+6. Git
     ```
     git status 
     git add . 
     git commit -m "your_commit_message" 
     git push origin main 
     ```
+
